@@ -1,5 +1,5 @@
 import { createClient } from "urql";
 
-const url = "http://localhost:4000/graphql";
+const url = "https://simulator-nu.vercel.app/graphql";
 
 export const client = createClient({ url });
