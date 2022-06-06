@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import Head from "next/head";
-import Image from "next/image";
+import PretActionSection from "../components/Home/PretActionSection";
 import DefaultLayout from "../components/layout/DefaultLayoutComponent";
 import { useGetUsersQuery } from "../generated/graphql";
 
@@ -12,9 +11,7 @@ const Home: NextPage = () => {
 
   return (
     <DefaultLayout headTitle="EMP - Home">
-      <main>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      </main>
+      <PretActionSection />
     </DefaultLayout>
   );
 };

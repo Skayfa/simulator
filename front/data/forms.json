@@ -1,0 +1,53 @@
+[
+  {
+    "id": 1,
+    "title": "prêt immobilier",
+    "form": [
+      {
+        "id": 1,
+        "step": 1,
+        "title": "Projet",
+        "questions": [
+          {
+            "id": 1,
+            "question": "Quel est votre projet",
+            "type": "select-icons",
+            "answers": [
+              "Acheter un bien",
+              "Renégocier mon crédit",
+              "Construire",
+              "Faire des travaux"
+            ]
+          },
+          {
+            "id": 2,
+            "question": "Quel est l'usage du bien concerné par ce prêt ?",
+            "type": "select",
+            "answers": [
+              "Residence principale",
+              "Residence secondaire",
+              "Investissement locatif"
+            ]
+          },
+          {
+            "id": 3,
+            "question": "Quel est l'usage du bien concerné par ce prêt ?",
+            "type": "formulaire",
+            "answers": [
+              {
+                "id": 1,
+                "type": "input-number-euro",
+                "title": "Valeur estimée actuelle du bien"
+              },
+              {
+                "id": 2,
+                "type": "input-number-euro",
+                "title": "Montant initial du prêt"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
