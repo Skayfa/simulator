@@ -19,12 +19,12 @@ const HeaderComponent: React.FC = () => {
         </div>
       </div>
       <div>
-        <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="hidden md:block max-w-7xl mx-auto px-4 py-4 shadow-inner">
           <ol className="flex space-x-2 justify-between px-12">
             <SubLinkMenu link="/simulateur/1">Crédit immobilier</SubLinkMenu>
             <SubLinkMenu link="/simulateur/2">Crédit automobile</SubLinkMenu>
-            <SubLinkMenu link="/">Crédit consommation</SubLinkMenu>
-            <SubLinkMenu link="/">Mutuelle santé</SubLinkMenu>
+            <SubLinkMenu link="/simulateur/3">Crédit consommation</SubLinkMenu>
+            <SubLinkMenu link="/simulateur/4">Mutuelle santé</SubLinkMenu>
           </ol>
         </div>
       </div>
